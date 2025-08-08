@@ -65,6 +65,7 @@
             
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex items-center space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-brand-red transition duration-300">About Us</a>
                 <a href="#services" class="text-gray-600 hover:text-brand-red transition duration-300">Our Services</a>
                 <a href="#faq" class="text-gray-600 hover:text-brand-red transition duration-300">FAQ</a>
                 <a href="#contact" class="text-gray-600 hover:text-brand-red transition duration-300">Contact</a>
@@ -78,6 +79,7 @@
 
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden px-4 sm:px-6 pb-4 border-t border-gray-200">
+            <a href="#about" class="block py-2 text-gray-600 hover:text-brand-red">About Us</a>
             <a href="#services" class="block py-2 text-gray-600 hover:text-brand-red">Our Services</a>
             <a href="#faq" class="block py-2 text-gray-600 hover:text-brand-red">FAQ</a>
             <a href="#contact" class="block py-2 text-gray-600 hover:text-brand-red">Contact</a>
@@ -94,6 +96,18 @@
                 <p class="mt-4 text-base sm:text-lg md:text-xl max-w-3xl mx-auto text-gray-200">A family-owned business helping connect friends and family who are unable to attend a funeral service in person.</p>
                 <div class="mt-8 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
                     <a href="#contact" class="w-full sm:w-auto bg-white text-brand-red px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-300 shadow-lg">Enquire Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-16 sm:py-20 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6">
+                <div class="text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Your Trusted Partner in Difficult Times</h2>
+                    <p class="mt-4 max-w-3xl mx-auto text-lg text-gray-600">
+                        Livestream Funeral Services is a family-owned and operated business based in Perth, WA. We understand the importance of connection when you can't be there in person. Our mission is to provide a dignified, reliable, and seamless livestreaming experience, allowing families and friends to pay their respects and share in the farewell, no matter where they are in the world.
+                    </p>
                 </div>
             </div>
         </section>
@@ -188,38 +202,47 @@
         <!-- Contact Section -->
         <section id="contact" class="py-16 sm:py-20 bg-white">
             <div class="container mx-auto px-4 sm:px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Contact Us</h2>
-                    <p class="mt-2 text-gray-600 max-w-2xl mx-auto">For enquiries or to book our services, please get in touch with our team. We're here to help.</p>
-                </div>
-                <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
-                    <!-- Contact Details Column -->
-                    <div class="space-y-8">
+                <div class="max-w-3xl mx-auto bg-gray-50 p-6 sm:p-10 rounded-lg shadow-md">
+                    <div class="text-center mb-10">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Contact Us</h2>
+                        <p class="mt-2 text-gray-600">For enquiries or to book our services, please get in touch. We're here to help.</p>
+                    </div>
+                    
+                    <!-- Contact Details -->
+                    <div class="flex flex-col sm:flex-row justify-center text-center sm:text-left gap-8 sm:gap-12 mb-10">
                         <div>
-                            <h3 class="text-2xl font-semibold text-gray-900">Steve</h3>
-                            <p class="mt-2 text-lg text-gray-600">
+                            <h3 class="text-xl font-semibold text-gray-900">Steve</h3>
+                            <p class="mt-1 text-lg text-gray-600">
                                 <a href="tel:0455227729" class="hover:text-brand-red">0455 22 77 29</a><br>
                                 <a href="mailto:steve@mobileav.com.au" class="hover:text-brand-red">steve@mobileav.com.au</a>
                             </p>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-semibold text-gray-900">Leigh Turner</h3>
-                            <p class="mt-2 text-lg text-gray-600">
+                            <h3 class="text-xl font-semibold text-gray-900">Leigh Turner</h3>
+                            <p class="mt-1 text-lg text-gray-600">
                                 <a href="tel:0403272433" class="hover:text-brand-red">0403 272 433</a><br>
                                 <a href="mailto:leigh@mobileav.com.au" class="hover:text-brand-red">leigh@mobileav.com.au</a>
                             </p>
                         </div>
                     </div>
-                    <!-- Contact Form Column -->
-                    <div class="bg-gray-50 p-6 sm:p-8 rounded-lg shadow-inner">
+
+                    <!-- Divider -->
+                    <div class="relative flex py-5 items-center">
+                        <div class="flex-grow border-t border-gray-300"></div>
+                        <span class="flex-shrink mx-4 text-gray-400">Or</span>
+                        <div class="flex-grow border-t border-gray-300"></div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div>
                         <form action="#" method="POST">
-                             <h3 class="text-xl font-semibold text-gray-900 mb-4">Send a Message</h3>
+                             <h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Send a Message</h3>
                             <div class="grid grid-cols-1 gap-6">
                                 <input type="text" name="name" placeholder="Your Name" class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required>
                                 <input type="email" name="email" placeholder="Your Email" class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required>
                                 <textarea name="message" rows="5" placeholder="Your message..." class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required></textarea>
                             </div>
-                            <div class="mt-6 text-left">
+                            <div class="mt-6 text-center">
                                 <button type="submit" class="brand-red text-white px-8 py-3 rounded-full font-semibold hover:bg-red-700 transition duration-300 shadow-lg">Submit</button>
                             </div>
                         </form>
@@ -232,16 +255,12 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white">
         <div class="container mx-auto px-4 sm:px-6 py-12">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- About -->
-                <div class="md:col-span-1">
-                    <h4 class="text-lg font-semibold">About Us</h4>
-                    <p class="mt-4 text-gray-400">Livestream Funeral Services is a family-owned and operated business based in Perth, WA. We provide dignified and reliable funeral livestreaming to connect families and honour loved ones.</p>
-                </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Quick Links -->
                 <div>
                     <h4 class="text-lg font-semibold">Quick Links</h4>
                     <ul class="mt-4 space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white">About Us</a></li>
                         <li><a href="#services" class="text-gray-400 hover:text-white">Our Services</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white">FAQ</a></li>
                         <li><a href="#contact" class="text-gray-400 hover:text-white">Contact Us</a></li>
