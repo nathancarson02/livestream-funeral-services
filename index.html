@@ -18,6 +18,9 @@
         .brand-red {
             background-color: #c8102e;
         }
+        .fill-brand-red {
+            fill: #c8102e;
+        }
         .text-brand-red {
             color: #c8102e;
         }
@@ -52,9 +55,11 @@
         <div class="container mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
             <!-- Logo -->
             <a href="#" class="flex items-center space-x-3">
-                <div class="w-12 h-12 bg-black rounded-full flex items-center justify-center">
-                    <span class="text-white font-bold text-xl">LFS</span>
-                </div>
+                <!-- SVG Logo -->
+                <svg class="h-12 w-12" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <circle cx="50" cy="50" r="50" fill="black"/>
+                    <path d="M40 30 L70 50 L40 70 Z" class="fill-brand-red"/>
+                </svg>
                 <span class="hidden sm:block text-lg font-bold text-gray-800 tracking-wide">Livestream Funeral Services</span>
             </a>
             
