@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livestream Funeral Services - Honouring Memories, Connecting Families</title>
+    <title>Livestream Funeral Services - Professional Streaming</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,28 +49,21 @@
 
     <!-- Header Section -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="container mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
+        <div class="container mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
             <!-- Logo -->
-            <div class="flex items-center space-x-2">
-                <svg class="h-8 w-8 text-brand-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                </svg>
-                <span class="text-lg sm:text-xl font-bold text-gray-800">Livestream Funeral Services</span>
-            </div>
+            <a href="#" class="flex items-center space-x-3">
+                <div class="w-12 h-12 bg-black rounded-full flex items-center justify-center">
+                    <span class="text-white font-bold text-xl">LFS</span>
+                </div>
+                <span class="hidden sm:block text-lg font-bold text-gray-800 tracking-wide">Livestream Funeral Services</span>
+            </a>
             
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex items-center space-x-8">
                 <a href="#services" class="text-gray-600 hover:text-brand-red transition duration-300">Our Services</a>
-                <a href="#livestreams" class="text-gray-600 hover:text-brand-red transition duration-300">Funerals</a>
                 <a href="#faq" class="text-gray-600 hover:text-brand-red transition duration-300">FAQ</a>
                 <a href="#contact" class="text-gray-600 hover:text-brand-red transition duration-300">Contact</a>
             </nav>
-
-            <!-- Call to Action -->
-            <div class="hidden md:flex items-center space-x-4">
-                 <a href="tel:+61424140049" class="text-sm font-semibold text-gray-700">0424 140 049</a>
-                <a href="#contact" class="brand-red text-white px-5 py-2 rounded-full font-semibold hover:bg-red-700 transition duration-300 shadow">Request a Livestream</a>
-            </div>
 
             <!-- Mobile Menu Button -->
             <button id="mobile-menu-button" class="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-brand-red">
@@ -81,7 +74,6 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden px-4 sm:px-6 pb-4 border-t border-gray-200">
             <a href="#services" class="block py-2 text-gray-600 hover:text-brand-red">Our Services</a>
-            <a href="#livestreams" class="block py-2 text-gray-600 hover:text-brand-red">Funerals</a>
             <a href="#faq" class="block py-2 text-gray-600 hover:text-brand-red">FAQ</a>
             <a href="#contact" class="block py-2 text-gray-600 hover:text-brand-red">Contact</a>
             <a href="#contact" class="block mt-4 brand-red text-white text-center px-5 py-2 rounded-full font-semibold hover:bg-red-700 transition duration-300">Request a Livestream</a>
@@ -97,7 +89,6 @@
                 <p class="mt-4 text-base sm:text-lg md:text-xl max-w-3xl mx-auto text-gray-200">A family-owned business helping connect friends and family who are unable to attend a funeral service in person.</p>
                 <div class="mt-8 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
                     <a href="#contact" class="w-full sm:w-auto bg-white text-brand-red px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-300 shadow-lg">Enquire Now</a>
-                    <a href="#livestreams" class="w-full sm:w-auto border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-gray-800 transition duration-300">View Services</a>
                 </div>
             </div>
         </section>
@@ -137,10 +128,9 @@
                 </div>
             </div>
         </section>
-      
 
         <!-- FAQ Section -->
-        <section id="faq" class="py-16 sm:py-20 bg-white">
+        <section id="faq" class="py-16 sm:py-20 bg-gray-50">
             <div class="container mx-auto px-4 sm:px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Frequently Asked Questions</h2>
@@ -191,28 +181,44 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="py-16 sm:py-20 bg-gray-50">
+        <section id="contact" class="py-16 sm:py-20 bg-white">
             <div class="container mx-auto px-4 sm:px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Contact Us</h2>
-                    <p class="mt-2 text-gray-600 max-w-2xl mx-auto">For enquiries or to book our services, please get in touch. We're here to help.</p>
+                    <p class="mt-2 text-gray-600 max-w-2xl mx-auto">For enquiries or to book our services, please get in touch with our team. We're here to help.</p>
                 </div>
-                <div class="max-w-2xl mx-auto bg-white p-6 sm:p-8 rounded-lg shadow-md">
-                    <form action="#" method="POST">
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <input type="text" name="name" placeholder="Your Name" class="w-full p-3 bg-gray-100 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required>
-                            <input type="email" name="email" placeholder="Your Email" class="w-full p-3 bg-gray-100 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required>
+                <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <!-- Contact Details Column -->
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-900">Steve</h3>
+                            <p class="mt-2 text-lg text-gray-600">
+                                <a href="tel:0455227729" class="hover:text-brand-red">0455 22 77 29</a><br>
+                                <a href="mailto:steve@mobileav.com.au" class="hover:text-brand-red">steve@mobileav.com.au</a>
+                            </p>
                         </div>
-                        <div class="mt-6">
-                            <input type="text" name="funeral_location" placeholder="Funeral Location (e.g., City, Venue)" class="w-full p-3 bg-gray-100 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-900">Leigh Turner</h3>
+                            <p class="mt-2 text-lg text-gray-600">
+                                <a href="tel:0403272433" class="hover:text-brand-red">0403 272 433</a><br>
+                                <a href="mailto:leigh@mobileav.com.au" class="hover:text-brand-red">leigh@mobileav.com.au</a>
+                            </p>
                         </div>
-                        <div class="mt-6">
-                            <textarea name="message" rows="5" placeholder="Your message..." class="w-full p-3 bg-gray-100 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required></textarea>
-                        </div>
-                        <div class="mt-6 text-center">
-                            <button type="submit" class="brand-red text-white px-10 py-3 rounded-full font-semibold hover:bg-red-700 transition duration-300 shadow-lg">Send Message</button>
-                        </div>
-                    </form>
+                    </div>
+                    <!-- Contact Form Column -->
+                    <div class="bg-gray-50 p-6 sm:p-8 rounded-lg shadow-inner">
+                        <form action="#" method="POST">
+                             <h3 class="text-xl font-semibold text-gray-900 mb-4">Send a Message</h3>
+                            <div class="grid grid-cols-1 gap-6">
+                                <input type="text" name="name" placeholder="Your Name" class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required>
+                                <input type="email" name="email" placeholder="Your Email" class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required>
+                                <textarea name="message" rows="5" placeholder="Your message..." class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required></textarea>
+                            </div>
+                            <div class="mt-6 text-left">
+                                <button type="submit" class="brand-red text-white px-8 py-3 rounded-full font-semibold hover:bg-red-700 transition duration-300 shadow-lg">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -221,9 +227,9 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white">
         <div class="container mx-auto px-4 sm:px-6 py-12">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- About -->
-                <div class="sm:col-span-2 lg:col-span-1">
+                <div class="md:col-span-1">
                     <h4 class="text-lg font-semibold">About Us</h4>
                     <p class="mt-4 text-gray-400">Livestream Funeral Services is a family-owned and operated business based in Perth, WA. We provide dignified and reliable funeral livestreaming to connect families and honour loved ones.</p>
                 </div>
@@ -232,7 +238,6 @@
                     <h4 class="text-lg font-semibold">Quick Links</h4>
                     <ul class="mt-4 space-y-2">
                         <li><a href="#services" class="text-gray-400 hover:text-white">Our Services</a></li>
-                        <li><a href="#livestreams" class="text-gray-400 hover:text-white">Funerals</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white">FAQ</a></li>
                         <li><a href="#contact" class="text-gray-400 hover:text-white">Contact Us</a></li>
                     </ul>
@@ -240,15 +245,18 @@
                 <!-- Contact Info -->
                 <div>
                     <h4 class="text-lg font-semibold">Contact</h4>
-                    <ul class="mt-4 space-y-2 text-gray-400">
-                        <li>Phone: <a href="tel:+61424140049" class="hover:text-white">0424 140 049</a></li>
-                        <li>Email: <a href="mailto:contact@livestreamfuneralservices.com.au" class="hover:text-white">contact@livestreamfuneralservices.com.au</a></li>
+                    <ul class="mt-4 space-y-4 text-gray-400">
+                        <li>
+                            <span class="font-semibold text-gray-200">Steve</span><br>
+                            <a href="tel:0455227729" class="hover:text-white">0455 22 77 29</a><br>
+                            <a href="mailto:steve@mobileav.com.au" class="hover:text-white text-sm">steve@mobileav.com.au</a>
+                        </li>
+                         <li>
+                            <span class="font-semibold text-gray-200">Leigh Turner</span><br>
+                            <a href="tel:0403272433" class="hover:text-white">0403 272 433</a><br>
+                             <a href="mailto:leigh@mobileav.com.au" class="hover:text-white text-sm">leigh@mobileav.com.au</a>
+                        </li>
                     </ul>
-                </div>
-                <!-- Acknowledgement -->
-                <div>
-                    <h4 class="text-lg font-semibold">Acknowledgement</h4>
-                    <p class="mt-4 text-gray-400">We acknowledge the Traditional Custodians of the land on which we work and pay our respects to Elders past, present and emerging.</p>
                 </div>
             </div>
             <div class="mt-12 border-t border-gray-700 pt-8 text-center text-gray-500">
