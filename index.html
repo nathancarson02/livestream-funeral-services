@@ -18,9 +18,6 @@
         .brand-red {
             background-color: #c8102e;
         }
-        .fill-brand-red {
-            fill: #c8102e;
-        }
         .text-brand-red {
             color: #c8102e;
         }
@@ -51,38 +48,34 @@
 <body class="bg-gray-50 text-gray-800">
 
     <!-- Header Section -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
+    <header class="bg-gray-900 shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
             <!-- Logo -->
             <a href="#" class="flex items-center space-x-3">
-                <!-- SVG Logo -->
-                <svg class="h-12 w-12" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <circle cx="50" cy="50" r="50" fill="black"/>
-                    <path d="M40 30 L70 50 L40 70 Z" class="fill-brand-red"/>
-                </svg>
-                <span class="hidden sm:block text-lg font-bold text-gray-800 tracking-wide">Livestream Funeral Services</span>
+                <!-- Your PNG logo is placed here -->
+                <img src="Mobile AV.png" alt="Mobile AV Livestreaming Services Logo" class="h-14">
             </a>
             
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex items-center space-x-8">
-                <a href="#about" class="text-gray-600 hover:text-brand-red transition duration-300">About Us</a>
-                <a href="#services" class="text-gray-600 hover:text-brand-red transition duration-300">Our Services</a>
-                <a href="#faq" class="text-gray-600 hover:text-brand-red transition duration-300">FAQ</a>
-                <a href="#contact" class="text-gray-600 hover:text-brand-red transition duration-300">Contact</a>
+                <a href="#about" class="text-gray-300 hover:text-white transition duration-300">About Us</a>
+                <a href="#services" class="text-gray-300 hover:text-white transition duration-300">Our Services</a>
+                <a href="#faq" class="text-gray-300 hover:text-white transition duration-300">FAQ</a>
+                <a href="#contact" class="text-gray-300 hover:text-white transition duration-300">Contact</a>
             </nav>
 
             <!-- Mobile Menu Button -->
-            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-brand-red">
+            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
             </button>
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden px-4 sm:px-6 pb-4 border-t border-gray-200">
-            <a href="#about" class="block py-2 text-gray-600 hover:text-brand-red">About Us</a>
-            <a href="#services" class="block py-2 text-gray-600 hover:text-brand-red">Our Services</a>
-            <a href="#faq" class="block py-2 text-gray-600 hover:text-brand-red">FAQ</a>
-            <a href="#contact" class="block py-2 text-gray-600 hover:text-brand-red">Contact</a>
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-900 px-4 sm:px-6 pb-4 border-t border-gray-700">
+            <a href="#about" class="block py-2 text-gray-300 hover:text-white">About Us</a>
+            <a href="#services" class="block py-2 text-gray-300 hover:text-white">Our Services</a>
+            <a href="#faq" class="block py-2 text-gray-300 hover:text-white">FAQ</a>
+            <a href="#contact" class="block py-2 text-gray-300 hover:text-white">Contact</a>
             <a href="#contact" class="block mt-4 brand-red text-white text-center px-5 py-2 rounded-full font-semibold hover:bg-red-700 transition duration-300">Request a Livestream</a>
         </div>
     </header>
@@ -217,13 +210,6 @@
                                 <a href="mailto:steve@mobileav.com.au" class="hover:text-brand-red">steve@mobileav.com.au</a>
                             </p>
                         </div>
-                        <div>
-                            <h3 class="text-xl font-semibold text-gray-900">Leigh Turner</h3>
-                            <p class="mt-1 text-lg text-gray-600">
-                                <a href="tel:0403272433" class="hover:text-brand-red">0403 272 433</a><br>
-                                <a href="mailto:leigh@mobileav.com.au" class="hover:text-brand-red">leigh@mobileav.com.au</a>
-                            </p>
-                        </div>
                     </div>
 
                     <!-- Divider -->
@@ -236,7 +222,7 @@
                     <!-- Contact Form -->
                     <div>
                         <form action="#" method="POST">
-                             <h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Send a Message</h3>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Send a Message</h3>
                             <div class="grid grid-cols-1 gap-6">
                                 <input type="text" name="name" placeholder="Your Name" class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required>
                                 <input type="email" name="email" placeholder="Your Email" class="w-full p-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-red" required>
@@ -274,11 +260,6 @@
                             <span class="font-semibold text-gray-200">Steve Laing</span><br>
                             <a href="tel:0455227729" class="hover:text-white">0455 227 729</a><br>
                             <a href="mailto:steve@mobileav.com.au" class="hover:text-white text-sm">steve@mobileav.com.au</a>
-                        </li>
-                         <li>
-                            <span class="font-semibold text-gray-200">Leigh Turner</span><br>
-                            <a href="tel:0403272433" class="hover:text-white">0403 272 433</a><br>
-                             <a href="mailto:leigh@mobileav.com.au" class="hover:text-white text-sm">leigh@mobileav.com.au</a>
                         </li>
                     </ul>
                 </div>
